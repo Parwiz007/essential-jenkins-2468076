@@ -4,6 +4,7 @@
 echo "# $(date) Installation is starting."
 
 # Uncomment the following line if you are using this script
+# step by step to install this on ubunut. sudo su -  2.vim install.sh then copy this entire file and paste it. save it then 3.source install.sh
 # as user data for an EC2 instance on AWS.
 # Output from the installation will be written to /var/log/user-data.log
 #exec > >(tee /var/log/user-data.log|logger -t user-data -s 2>/dev/console) 2>&1
